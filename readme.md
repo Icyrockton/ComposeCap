@@ -27,7 +27,7 @@
 - TCP
 - UDP
 
-[![](https://github.com/Icyrockton/ComposeCap/blob/master/img/capture.gif)]
+![capture](https://github.com/Icyrockton/ComposeCap/blob/master/img/capture.gif)
 
 协议抓包还支持BPF(Berkeley Packet Filter)的过滤条件
 例如如下的条件语句
@@ -37,7 +37,7 @@
 
 更多的BPF过滤语句请查看 [IBM Berkeley packet filters](https://www.ibm.com/docs/en/qsip/7.4?topic=queries-berkeley-packet-filters)
 
-[![](https://github.com/Icyrockton/ComposeCap/blob/master/img/filter.gif)]
+![filter](https://github.com/Icyrockton/ComposeCap/blob/master/img/filter.gif)
 
 ---
 ###报文构造
@@ -48,7 +48,7 @@
 - TCP
 且构造的字节数少于60字节数，会自动进行补**0x00**填充
 
-[![](https://github.com/Icyrockton/ComposeCap/blob/master/img/packetBuild.gif)]
+![packetBuild](https://github.com/Icyrockton/ComposeCap/blob/master/img/packetBuild.gif)
 
 ---
 ###流量统计
@@ -68,10 +68,10 @@
 - 总上传流量
 - 总流量
 
-[![](https://github.com/Icyrockton/ComposeCap/blob/master/img/speed.gif)]
+![traffic](https://github.com/Icyrockton/ComposeCap/blob/master/img/speed.gif)
 
 ---
 ###流量计费
 流量计费仅计算价格，输入每MB的费用，计算需要支付的金额😄
 
-[![](https://github.com/Icyrockton/ComposeCap/blob/master/img/fee.png)]
+![fee](https://github.com/Icyrockton/ComposeCap/blob/master/img/fee.png)
