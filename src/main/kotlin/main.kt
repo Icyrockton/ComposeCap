@@ -19,7 +19,7 @@ import org.pcap4j.core.Pcaps
 import packetbuild.PacketBuilder
 import traffic.NetWorkTraffic
 
-fun main() = Window(title = "网络编程-课程设计3-沈力瑜", size = IntSize(1400, 1200), resizable = false) {
+fun main() = Window(title = "ComposeCap", size = IntSize(1400, 1200), resizable = false) {
 
     var route by remember { mutableStateOf(NavigationItem.Capture.route) }
     MaterialTheme {
