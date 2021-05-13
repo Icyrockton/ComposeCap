@@ -1,22 +1,22 @@
-#ComposeCap桌面端协议抓包软件(仿WireShark)
+# ComposeCap桌面端协议抓包软件(仿WireShark)
 
 
 ----
 
-##支持的功能
+## 支持的功能
 - 协议抓包
 - 报文构造
 - 流量统计
 - 网络计费
 
-##使用到的库有
+## 使用到的库有
 
 - UI库([Jetpack Compose Desktop](https://github.com/JetBrains/compose-jb))
 - 抓包库 ([Pcap4j](https://github.com/kaitoy/pcap4j)) 底层使用libpcap
 
 ---
 
-###协议抓包
+### 协议抓包
 协议抓包支持以Hex形式查看报文的信息，以及解析支持的报文的主要字段
 
 **支持的协议类型**
@@ -40,7 +40,7 @@
 ![filter](https://github.com/Icyrockton/ComposeCap/blob/master/img/filter.gif)
 
 ---
-###报文构造
+### 报文构造
 报文构造只支持下列协议
 - Ethernet
 - IPv4
@@ -51,7 +51,7 @@
 ![packetBuild](https://github.com/Icyrockton/ComposeCap/blob/master/img/packetBuild.gif)
 
 ---
-###流量统计
+### 流量统计
 流量统计功能部分为统计1S内的流量数，部分为统计总流量数
 
 流量统计的思路为判断以太网报文中的目的MAC地址是否为**本机MAC地址**，若是则为下载流量，否则为上传流量
@@ -71,7 +71,7 @@
 ![traffic](https://github.com/Icyrockton/ComposeCap/blob/master/img/speed.gif)
 
 ---
-###流量计费
+### 流量计费
 流量计费仅计算价格，输入每MB的费用，计算需要支付的金额😄
 
 ![fee](https://github.com/Icyrockton/ComposeCap/blob/master/img/fee.png)
