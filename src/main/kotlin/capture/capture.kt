@@ -77,7 +77,7 @@ fun Capture() {
                     }
                     VerticalScrollbar(
                         modifier = Modifier.align(Alignment.CenterEnd).fillMaxHeight(),
-                        adapter = ScrollbarAdapter(lazyListState, viewModel.pcap.captureList.size, 25.dp.value)
+                        adapter = ScrollbarAdapter(lazyListState)
                     )
                 }
             }
